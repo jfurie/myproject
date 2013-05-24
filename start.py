@@ -20,8 +20,8 @@ def hello_world():
 
 @app.route('/echo/<echo>')
 def echo(echo):
-	from pymongo import MongoClient
-	client = MongoClient('mongodb://appuser:sausageheavy@widmore.mongohq.com/furieTest', 10000)
+	from pymongo  import MongoClient
+	client = MongoClient('mongodb://appuser:{PASSWORD}@widmore.mongohq.com/furieTest', 10000)
 	db = client.furieTest
 	collection = db.test_collection
 	import datetime
