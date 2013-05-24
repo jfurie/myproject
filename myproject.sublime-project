@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jfurie/Documents/Projects/myproject"
+		}
+	],
+	"build_systems":
+	[
+	    {
+	    "name": "Run Tests",
+	    "working_dir": "/Users/jfurie/Documents/Projects/myproject",
+	    "cmd": ["/Users/jfurie/Documents/Projects/myproject/venv/bin/activate", "start.py", "test"]
+	    }
+	]
+}
